@@ -9,8 +9,8 @@ Updated October 31, 2026. This records completed setup, not a working Threadback
 - Lens Studio **5.23.2** installed at `C:\Program Files\Snap Inc\Lens Studio\Lens Studio.exe`.
 - The downloaded installer has a valid **Snap Inc.** Authenticode signature.
 - The unattended installer exited with code **0** and logged "Installation process succeeded" and "Need to restart Windows? No".
-- Lens Studio launches and its SPECS Base Template has been selected. Project loading/saving is still in progress.
-- Official CLAD plugin `ls-clad@ls-extensions` is installed and enabled in the local Codex configuration. Its connection to a live Lens Studio project is not yet verified.
+- The real SPECS Base Template is saved as `Threadback.esproj` at the repository root and reopens successfully in Lens Studio. The base template reports "TypeScript compilation succeeded" in the editor.
+- Official CLAD plugin `ls-clad@ls-extensions` is installed and enabled. Lens Studio generated private project-scoped MCP configuration, and `codex mcp list` recognizes the enabled `lens-studio` server. The current chat does not yet expose Lens Studio MCP tools, so a live tool call is not verified.
 - Official `plan-lens` skill installed locally at `.agents/skills/plan-lens` (ignored by Git).
 
 ## Tooling sources
@@ -24,8 +24,8 @@ Local installer logs and tooling downloads are in ignored `artifacts/`; credenti
 
 ## Next required steps
 
-1. Finish loading and save the real SPECS project in this repository.
-2. Confirm Lens Studio login and the live MCP connection; resolve local hook approval if still shown by Codex.
+1. Confirm Lens Studio login (the editor currently shows its Login button).
+2. Reload/restart the coding session with the project open so its newly generated MCP configuration is registered, then verify the live connection; resolve local hook approval if still shown by Codex.
 3. Run the installed planning skill using the already agreed v1 choices; capture the resulting brief.
 4. Build with CLAD, validate in Preview, and record genuine demo evidence.
 

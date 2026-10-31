@@ -8,7 +8,7 @@ Built for [Learn AR with SPECS](https://learn-specs.devpost.com/).
 
 ## Project status
 
-The repository foundation is published and synchronized with the development workspace. The Lens has **not been implemented or tested yet**. This repository currently contains the agreed v1 scope, setup instructions, build milestones, and demo plan. A real SPECS Base Template project, the required Devpost Learn planning workflow, and CLAD connection come before implementation.
+The repository contains the actual SPECS Base Template project (`Threadback.esproj`), which opens and compiles in Lens Studio 5.23.2, along with the agreed v1 scope, setup instructions, build milestones, and demo plan. **Threadback's application features have not been implemented or tested yet.** Lens Studio sign-in, a verified live CLAD/MCP connection, and the required Devpost Learn planning workflow come before implementation. See [setup progress](docs/setup-progress.md).
 
 ## V1 experience
 

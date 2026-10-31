@@ -11,7 +11,7 @@ Keep checkboxes and evidence current. A milestone is complete only when its stat
 
 ## 1. Required Lens toolchain and design
 
-- [ ] Create/open the actual Threadback SPECS Base Template in this repository.
+- [x] Create/open the actual Threadback SPECS Base Template in this repository.
 - [ ] Connect Lens Studio MCP and CLAD.
 - [ ] Install/run the official Devpost Learn planning skill.
 - [ ] Resolve remaining interaction choices and commit its generated design brief.
