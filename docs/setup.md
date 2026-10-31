@@ -1,6 +1,6 @@
 # Development setup
 
-Status: the workspace is a Git repository. No Lens Studio project, CLAD connection, or working Lens has been verified yet.
+Status: Lens Studio 5.23.2, the CLAD plugin, and the local planning skill have been installed. A live project/MCP connection and working Threadback Lens have not been verified yet. See [setup progress](setup-progress.md).
 
 ## Required order
 
@@ -17,7 +17,7 @@ Status: the workspace is a Git repository. No Lens Studio project, CLAD connecti
 6. Run `plan-lens`. Use the agreed scope and demo notes as conversation context, answer remaining design questions, and commit the resulting `devpost/design-brief.md` and other generated planning documents.
 7. Build using CLAD and the Lens Studio MCP from that brief. Implement one complete feature at a time, inspect the real preview, and record validation evidence.
 
-Node.js and Git are available in the current workspace environment. Lens Studio installation and the official planning skill have not been completed as part of repository scaffolding.
+Node.js and Git are available in the current workspace environment. The official planning skill is installed locally at `.agents/skills/plan-lens`; it has not yet run against a connected project.
 
 ## Git layout
 
