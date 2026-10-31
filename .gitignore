@@ -1,0 +1,37 @@
+# Local credentials, signing material, and machine-specific MCP setup
+.env
+.env.*
+!.env.example
+.mcp.json
+.mcp.local.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Agent installation/configuration stays local; generated devpost/ docs are tracked
+.agents/
+.claude/
+.codex/
+
+# Dependencies and logs
+node_modules/
+*.log
+npm-debug.log*
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.tmp
+
+# Local evidence and exported recordings
+artifacts/
+recordings/
+
+# Review Lens Studio template files before adding engine-specific cache rules.
+# Do not broadly ignore source assets, metadata, or the .esproj file.
