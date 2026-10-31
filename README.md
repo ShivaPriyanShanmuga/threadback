@@ -8,7 +8,7 @@ Built for [Learn AR with SPECS](https://learn-specs.devpost.com/).
 
 ## Project status
 
-Repository and product planning are being established. The Lens has **not been implemented or tested yet**. This repository currently contains the agreed v1 scope, setup instructions, build milestones, and demo plan. A real SPECS Base Template project, the required Devpost Learn planning workflow, and CLAD connection come before implementation.
+The repository foundation is published and synchronized with the development workspace. The Lens has **not been implemented or tested yet**. This repository currently contains the agreed v1 scope, setup instructions, build milestones, and demo plan. A real SPECS Base Template project, the required Devpost Learn planning workflow, and CLAD connection come before implementation.
 
 ## V1 experience
 

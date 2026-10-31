@@ -7,7 +7,7 @@ Keep checkboxes and evidence current. A milestone is complete only when its stat
 - [x] Preserve the user-approved v1 scope.
 - [x] Document a laptop-preview demo and its limits.
 - [x] Establish contribution guidance, ignore rules, and review templates.
-- [ ] Create and synchronize the public GitHub repository.
+- [x] Create and synchronize the public GitHub repository: https://github.com/ShivaPriyanShanmuga/threadback.
 
 ## 1. Required Lens toolchain and design
 
